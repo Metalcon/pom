@@ -27,3 +27,5 @@ To use the parental pom you have to add the Metalcon repository:
       <id>metalcon-depend</id>
       <url>http://metalcon2.physik.uni-mainz.de:8080/mvn/</url>
     </repository>
+
+See https://github.com/renepickhardt/metalcon/wiki/technologyMaven for more information about the usage of Maven and deployment in particular.
