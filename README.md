@@ -26,10 +26,16 @@ to the head of your pom file.
 
 To use the parental pom you have to add the Metalcon repository:
 
-    <!-- Metalcon repository to resolve dependencies from -->
-    <repository>
-      <id>metalcon-depend</id>
-      <url>http://metalcon2.physik.uni-mainz.de:8080/mvn/</url>
-    </repository>
+    <project ...>
+      ...
+      <repositories>
+        <!-- Metalcon repository to resolve dependencies from -->
+        <repository>
+          <id>metalcon-depend</id>
+          <url>http://metalcon2.physik.uni-mainz.de:8080/mvn/</url>
+        </repository>
+      </repositories>
+      ...
+    </project>
 
 See https://github.com/renepickhardt/metalcon/wiki/technologyMaven for more information about the usage of Maven and deployment in particular.
