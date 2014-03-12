@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.metalcon</groupId>
+  <artifactId>pom</artifactId>
+  <version>0.0.1</version>
+  <packaging>pom</packaging>
+  <name>Metalcon POM</name>
+  <description>parental POM for Metalcon projects</description>
+  
+  <organization>
+  	<name>Metalcon</name>
+  	<url>http://www.metalcon.de/</url>
+  </organization>
+  
+  <licenses>
+    <license>
+      <name>GNU General Public License 3.0</name>
+      <url>http://www.gnu.org/licenses/gpl.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  <distributionManagement>
+    <!-- Metalcon repository to deploy artifacts to -->
+    <repository>
+      <id>metalcon-deploy</id>
+      <uniqueVersion>false</uniqueVersion>
+      <url>scp://metalcon2.physik.uni-mainz.de/metalcon-mvn/</url>
+      <layout>default</layout>
+    </repository>
+  </distributionManagement>
+  
+  <build>
+  	<plugins>
+  	  <!-- Java 1.7 -->
+  	  <plugin>
+  	    <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+  	  </plugin>
+  	</plugins>
+  	
+  	<!-- SSH extension to deploy via SCP -->
+  	<extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-ssh</artifactId>
+      </extension>
+    </extensions>
+  </build>
+</project>
