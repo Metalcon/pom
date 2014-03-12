@@ -12,11 +12,15 @@ parental POM for Metalcon projects including
 
 You can inherit from the parental pom by adding
 
-    <parent>
-      <groupId>de.metalcon</groupId>
-      <artifactId>pom</artifactId>
-      <version>0.0.1</version>
-    </parent>
+    <project ...>
+      <parent>
+        <groupId>de.metalcon</groupId>
+        <artifactId>pom</artifactId>
+        <version>0.0.1</version>
+      </parent>
+      
+      ...
+    </project>
 
 to the head of your pom file.
 
