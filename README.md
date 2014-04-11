@@ -69,7 +69,7 @@ If you need to pass arguments you have to add the plugin yourself and use its co
 #### Metalcon dependencies
 
 | Artifact | Version | Variable |
-|--------|-------|--------|
+| -------- | ------- | -------- |
 | db-helper | 0.1.1  | metalcon.dbHelper.version |
 | RequestDispatcher | 1.3.0 | metalcon.dispatcher.version |
 | exceptions | 0.1.1 | metalcon.exceptions.version |
@@ -81,9 +81,9 @@ If you need to pass arguments you have to add the plugin yourself and use its co
 | backend-api | 0.1.2 | metalcon.backendApi.version |
 | image-gallery-server-api | 0.0.1 | metalcon.imageGalleryServer.api.version |
 | like-server-api | 0.2.0 | metalcon.likeServer.api.version |
-| music-streaming-server-api | 0.1.0 | metalcon.musicStreamingServer.api.version |
+| music-streaming-server-api      | 0.1.0 | metalcon.musicStreamingServer.api.version |
 | static-data-delivery-server-api | 0.1.3 | metalcon.staticDataDeliveryServer.api.version |
-| url-mapping-server-api | 0.4.0 | metalcon.urlMappingServer.api.version |
+| url-mapping-server-api          | 0.4.0 | metalcon.urlMappingServer.api.version |
 | Backend components |---|---|
 | image-storage-server | 0.1.0 | metalcon.imageStorageServer.version |
 | like-server | 0.3.0 | metalcon.likeServer.version |
