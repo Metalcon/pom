@@ -56,11 +56,11 @@
     <metalcon.zmqWorkerHelper.version>0.4.0</metalcon.zmqWorkerHelper.version>
     
     <metalcon.backendApi.version>0.1.2</metalcon.backendApi.version>
-    <metalcon.imageGalleryServerApi.version>0.0.1</metalcon.imageGalleryServerApi.version>
-    <metalcon.likeServerApi.version>0.2.0</metalcon.likeServerApi.version>
-    <metalcon.musicStreamingServerApi.version>0.1.0</metalcon.musicStreamingServerApi.version>
-    <metalcon.staticDataDelieveryApi.version>0.1.3</metalcon.staticDataDelieveryApi.version>
-    <metalcon.urlMappingServerApi.version>0.4.0</metalcon.urlMappingServerApi.version>
+    <metalcon.imageGalleryServer.api.version>0.0.1</metalcon.imageGalleryServer.api.version>
+    <metalcon.likeServer.api.version>0.2.0</metalcon.likeServer.api.version>
+    <metalcon.musicStreamingServer.api.version>0.1.0</metalcon.musicStreamingServer.api.version>
+    <metalcon.staticDataDelievery.api.version>0.1.3</metalcon.staticDataDelievery.api.version>
+    <metalcon.urlMappingServer.api.version>0.4.0</metalcon.urlMappingServer.api.version>
     
     <metalcon.imageStorageServer.version>0.1.0</metalcon.imageStorageServer.version>
     <metalcon.likeServer.version>0.3.0</metalcon.likeServer.version>
