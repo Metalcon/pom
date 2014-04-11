@@ -16,7 +16,7 @@ You can inherit from the parental pom by adding
       <parent>
         <groupId>de.metalcon</groupId>
         <artifactId>pom</artifactId>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
       </parent>
       
       ...
