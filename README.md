@@ -71,7 +71,7 @@ If you need to pass arguments you have to add the plugin yourself and use its co
 | Artifact | Version | Variable |
 | -------- | ------- | -------- |
 | db-helper | 0.1.1  | metalcon.dbHelper.version |
-| RequestDispatcher | 1.3.0 | metalcon.dispatcher.version |
+| RequestDispatcher | 1.4.0 | metalcon.dispatcher.version |
 | exceptions | 0.1.1 | metalcon.exceptions.version |
 | json-pretty-printer | 0.0.1 | metalcon.jsonPrettyPrinter.version |
 | muid     | 0.3.2   | metalcon.muid.version |
