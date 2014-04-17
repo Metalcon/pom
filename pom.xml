@@ -47,7 +47,7 @@
     <junit.version>4.9</junit.version>
 
     <!-- dependency versions: Metalcon -->
-    <metalcon.dbHelper.version>0.1.1</metalcon.dbHelper.version>
+    <metalcon.dbHelper.version>0.2.0</metalcon.dbHelper.version>
     <metalcon.dispatcher.version>1.4.0</metalcon.dispatcher.version>
     <metalcon.exceptions.version>0.1.1</metalcon.exceptions.version>
     <metalcon.jsonPrettyPrinter.version>0.0.1</metalcon.jsonPrettyPrinter.version>
@@ -66,9 +66,7 @@
     <metalcon.imageStorageServer.version>0.1.0</metalcon.imageStorageServer.version>
     <metalcon.likeServer.version>0.3.0</metalcon.likeServer.version>
     <metalcon.musicStorageServer.version>0.1.0</metalcon.musicStorageServer.version>
- 
-    <metalcon.dbHelper.version>0.2.0</metalcon.dbHelper.version>
-  </properties>
+   </properties>
 
   <build>
     <plugins>
