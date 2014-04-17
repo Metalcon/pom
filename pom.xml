@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.metalcon</groupId>
   <artifactId>pom</artifactId>
-  <version>0.0.12</version>
+  <version>0.0.13</version>
   <packaging>pom</packaging>
   <name>Metalcon POM</name>
   <description>parental POM for Metalcon projects</description>
@@ -56,7 +56,7 @@
     <metalcon.zmqWorkerHelper.version>0.5.0</metalcon.zmqWorkerHelper.version>
     
     <metalcon.backendApi.version>0.1.2</metalcon.backendApi.version>
-    <metalcon.imageGalleryServer.api.version>0.0.1</metalcon.imageGalleryServer.api.version>
+    <metalcon.imageGalleryServer.api.version>0.0.2</metalcon.imageGalleryServer.api.version>
     <metalcon.likeServer.api.version>0.2.0</metalcon.likeServer.api.version>
     <metalcon.musicStreamingServer.api.version>0.1.0</metalcon.musicStreamingServer.api.version>
     <metalcon.staticDataDeliveryServer.api.version>0.1.4</metalcon.staticDataDeliveryServer.api.version>
