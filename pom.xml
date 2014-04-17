@@ -66,6 +66,8 @@
     <metalcon.imageStorageServer.version>0.1.0</metalcon.imageStorageServer.version>
     <metalcon.likeServer.version>0.3.0</metalcon.likeServer.version>
     <metalcon.musicStorageServer.version>0.1.0</metalcon.musicStorageServer.version>
+ 
+    <metalcon.dbHelper.version>0.2.0</metalcon.dbHelper.version>
   </properties>
 
   <build>
