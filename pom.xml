@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.metalcon</groupId>
   <artifactId>pom</artifactId>
-  <version>0.0.11</version>
+  <version>0.0.12</version>
   <packaging>pom</packaging>
   <name>Metalcon POM</name>
   <description>parental POM for Metalcon projects</description>
@@ -66,6 +66,11 @@
     <metalcon.imageStorageServer.version>0.1.0</metalcon.imageStorageServer.version>
     <metalcon.likeServer.version>0.3.0</metalcon.likeServer.version>
     <metalcon.musicStorageServer.version>0.1.0</metalcon.musicStorageServer.version>
+
+    <metalcon.reconciling.version>0.0.1</metalcon.reconciling.version>
+    <metalcon.youtubeServerAPI.version>0.0.1</metalcon.youtubeServerAPI.version>
+
+
    </properties>
 
   <build>
