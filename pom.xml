@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.metalcon</groupId>
   <artifactId>pom</artifactId>
-  <version>0.0.20</version>
+  <version>0.0.21</version>
   <packaging>pom</packaging>
   <name>Metalcon POM</name>
   <description>parental POM for Metalcon projects</description>
@@ -54,7 +54,7 @@
     <metalcon.muid.version>0.4.2</metalcon.muid.version>
     <metalcon.testing.version>0.0.3</metalcon.testing.version>
     <metalcon.zmqWorkerHelper.version>0.5.1</metalcon.zmqWorkerHelper.version>
-    
+
     <metalcon.backendApi.version>0.1.2</metalcon.backendApi.version>
     <metalcon.imageGalleryServer.api.version>0.3.0</metalcon.imageGalleryServer.api.version>
     <metalcon.likeServer.api.version>0.3.0</metalcon.likeServer.api.version>
@@ -62,16 +62,14 @@
     <metalcon.staticDataDeliveryServer.api.version>0.1.4</metalcon.staticDataDeliveryServer.api.version>
     <metalcon.urlMappingServer.api.version>0.6.0</metalcon.urlMappingServer.api.version>
     <metalcon.newsFeedServer.api.version>0.0.1</metalcon.newsFeedServer.api.version>
-    
-    <metalcon.imageStorageServer.version>0.1.0</metalcon.imageStorageServer.version>
+
+    <metalcon.imageStorageServer.version>0.1.1</metalcon.imageStorageServer.version>
     <metalcon.likeServer.version>0.3.0</metalcon.likeServer.version>
     <metalcon.musicStorageServer.version>0.1.0</metalcon.musicStorageServer.version>
 
     <metalcon.reconciling.version>0.0.1</metalcon.reconciling.version>
     <metalcon.youtubeServerAPI.version>0.0.2</metalcon.youtubeServerAPI.version>
-
-
-   </properties>
+  </properties>
 
   <build>
     <plugins>
